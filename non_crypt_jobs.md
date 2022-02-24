@@ -1,3 +1,5 @@
+# Good Fits
+
 |Company                |Position                      |Listing                                                                          |
 | --------------------- | ---------------------------- |-------------------------------------------------------------------------------- |
 |Fortanix               |Remote Software Engineer      |https://apply.workable.com/fortanix/j/142ACAF269/                                |
@@ -13,7 +15,8 @@
 |ever.ag                |Back End Developer            |https://www.linkedin.com/jobs/view/2922237969                                    |
 
 
-Lots of Experience Required:
+## Lots of Experience Required:
+
 |Company                |Position                    |Listing                            |
 | --------------------- | -------------------------- | --------------------------------- |
 |Select Star            |Rust Engineer               |https://g.co/kgs/th9UKe            |
@@ -24,9 +27,8 @@ Lots of Experience Required:
 |Ockam                  |Sr. Engineer - Rust, etc.   |https://g.co/kgs/E2xi3o            |
 |Dynaboard              |Sr. SE - Systems            |https://careers.dynaboard.com/22690|
 
+## Blacklist (sneakily named crypto)
 
-
-## Blacklist
 IOHK
 Chorus One
 Parallel Finance
