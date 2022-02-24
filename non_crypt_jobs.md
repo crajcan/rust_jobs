@@ -29,27 +29,27 @@
 
 ## Blacklist (sneakily named crypto)
 
-IOHK
-Chorus One
-Parallel Finance
-ConsenSys
-Arcadia
-Hedgehog Markets
-Fractional
-Dash Core Group 
-Dex Labs
-Fleek
-Yat Labs
-Maple
-Audius
-4K.COM
-Analog
-Foundry
-Prometheus Research Labs
-Swing
-Edge & Node
-Casper Labs
-Certik
-Kava Labs
+1. IOHK
+1. Chorus One
+1. Parallel Finance
+1. ConsenSys
+1. Arcadia
+1. Hedgehog Markets
+1. Fractional
+1. Dash Core Group 
+1. Dex Labs
+1. Fleek
+1. Yat Labs
+1. Maple
+1. Audius
+1. 4K.COM
+1. Analog
+1. Foundry
+1. Prometheus Research Labs
+1. Swing
+1. Edge & Node
+1. Casper Labs
+1. Certik
+1. Kava Labs
 
 
