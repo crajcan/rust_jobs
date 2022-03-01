@@ -1,22 +1,22 @@
 # Good Fits
 
-| Company        | Position                                                                                                    |
-| -------------- | ----------------------------------------------------------------------------------------------------------- |
-| slight.co      | [Software Engineer](https://www.slight.co/jobs/software-engineer-rust)                                      |
-| Fortanix       | [Remote Software Engineer](https://apply.workable.com/fortanix/j/142ACAF269/)                               |
-| Apollo GraphQL | [Rust Platform Engineer](https://www.apollographql.com/careers/job?id=afcdcb31-ce6b-4485-9987-3cc8bc361deb) |
-| Fastly         | [Senior SE - Edge Applications](https://www.fastly.com/about/jobs/apply/?gh_jid=3295256)                    |
-| Oxide Computer | [SE: Internal Systems](https://oxide.computer/careers/sw-internal-systems)                                  |
-| Oxide Computer | [SE: Control Plane](https://oxide.computer/careers/sw-control-plane)                                        |
-| 1Password      | [Senior Rust Developer](https://g.co/kgs/o6wZ9C)                                                            |
-| Singularity    | [SE: Storage Kernal](https://apply.workable.com/singularity-data/j/AE56609754/)                             |
-| Seaplane       | [Rust Software Engineer](https://apply.workable.com/seaplane/j/CEFCB5F5B8/)                                 |
-| Cloudflare     | [Software Engineer](https://boards.greenhouse.io/cloudflare/jobs/3578402?gh_jid=3578402A)                   |
-| LoanPass       | [Multiple Rust Positions](https://loanpass.io/careerPage.html)                                              |
-| ever.ag        | [Back End Developer](https://www.linkedin.com/jobs/view/2922237969)                                         |
-| Deepgram       | [Rust Engineer - Voice AI](https://jobs.lever.co/deepgram/4992b193-e4eb-483b-b326-270e637ab09b/apply)       |
-| LaunchBadge    | [Software Developer](https://g.co/kgs/8wLGsj)                                                               |
-| Spruce         | [Software Engineer, Backend](https://spruce-systems.breezy.hr/p/9fb3b149dc01-software-engineer-backend)     |
+|    | Company        | Position                                                                                                    |
+| -- | -------------- | ----------------------------------------------------------------------------------------------------------- |
+| 1. | slight.co      | [Software Engineer](https://www.slight.co/jobs/software-engineer-rust)                                      |
+| 1. | Fortanix       | [Remote Software Engineer](https://apply.workable.com/fortanix/j/142ACAF269/)                               |
+| 1. | Apollo GraphQL | [Rust Platform Engineer](https://www.apollographql.com/careers/job?id=afcdcb31-ce6b-4485-9987-3cc8bc361deb) |
+| 1. | Fastly         | [Senior SE - Edge Applications](https://www.fastly.com/about/jobs/apply/?gh_jid=3295256)                    |
+| 1. | Oxide Computer | [SE: Internal Systems](https://oxide.computer/careers/sw-internal-systems)                                  |
+| 1. | Oxide Computer | [SE: Control Plane](https://oxide.computer/careers/sw-control-plane)                                        |
+| 1. | 1Password      | [Senior Rust Developer](https://g.co/kgs/o6wZ9C)                                                            |
+| 1. | Singularity    | [SE: Storage Kernal](https://apply.workable.com/singularity-data/j/AE56609754/)                             |
+| 1. | Seaplane       | [Rust Software Engineer](https://apply.workable.com/seaplane/j/CEFCB5F5B8/)                                 |
+| 1. | Cloudflare     | [Software Engineer](https://boards.greenhouse.io/cloudflare/jobs/3578402?gh_jid=3578402A)                   |
+| 1. | LoanPass       | [Multiple Rust Positions](https://loanpass.io/careerPage.html)                                              |
+| 1. | ever.ag        | [Back End Developer](https://www.linkedin.com/jobs/view/2922237969)                                         |
+| 1. | Deepgram       | [Rust Engineer - Voice AI](https://jobs.lever.co/deepgram/4992b193-e4eb-483b-b326-270e637ab09b/apply)       |
+| 1. | LaunchBadge    | [Software Developer](https://g.co/kgs/8wLGsj)                                                               |
+| 1. | Spruce         | [Software Engineer, Backend](https://spruce-systems.breezy.hr/p/9fb3b149dc01-software-engineer-backend)     |
 
 ## Startups
 
@@ -51,6 +51,7 @@
 | dbt Labs         | _[Whole Bunch](https://www.getdbt.com/dbt-labs/open-roles/)_                                           |
 | One Signal       | [Senior Software Engineer](https://jobs.lever.co/onesignal/9e1d251c-c1f9-49c7-98e9-c883e519f902/apply) |
 | Ntropy           | [Backend Engineer](https://jobs.lever.co/ntropy-network/5a587b64-7f97-4d75-be47-acf6394ed936)          |
+| Discord          | [Sr. Software Engineer - Safetey Engineering](https://discord.com/jobs/5834625002)
 
 ## Blacklist (sneakily named crypto)
 
