@@ -17,6 +17,7 @@
 | Deepgram       | [Rust Engineer - Voice AI](https://jobs.lever.co/deepgram/4992b193-e4eb-483b-b326-270e637ab09b/apply)       |
 | LaunchBadge    | [Software Developer](https://g.co/kgs/8wLGsj)                                                               |
 | Spruce         | [Software Engineer, Backend](https://spruce-systems.breezy.hr/p/9fb3b149dc01-software-engineer-backend)     |
+| FormLogic      | [Software Engineer (Rust)](https://www.formlogic.com/careers?bzid=4fbae29d9d21)                             |
 
 ## Startups
 
@@ -51,7 +52,9 @@
 | dbt Labs         | _[Whole Bunch](https://www.getdbt.com/dbt-labs/open-roles/)_                                           |
 | One Signal       | [Senior Software Engineer](https://jobs.lever.co/onesignal/9e1d251c-c1f9-49c7-98e9-c883e519f902/apply) |
 | Ntropy           | [Backend Engineer](https://jobs.lever.co/ntropy-network/5a587b64-7f97-4d75-be47-acf6394ed936)          |
-| Discord          | [Sr. Software Engineer - Safetey Engineering](https://discord.com/jobs/5834625002)
+| Discord          | [Sr. Software Engineer - Safetey Engineering](https://discord.com/jobs/5834625002)                     |
+| LogDNA           | [Senior Software Engineer, Backend](https://boards.greenhouse.io/logdna/jobs/5025036002)               |
+
 
 ## Blacklist (sneakily named crypto)
 
