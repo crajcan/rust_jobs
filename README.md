@@ -2,7 +2,7 @@
 
 | Company        | Position                                                                                                    |
 | -------------- | ----------------------------------------------------------------------------------------------------------- |
-| slight.co      | [Software Engineer](https://www.slight.co/jobs/software-engineer-rust)                                      |
+| slight.co      | [_FILLED_ Software Engineer](https://www.slight.co/jobs/software-engineer-rust)                             |
 | Fortanix       | [Remote Software Engineer](https://apply.workable.com/fortanix/j/142ACAF269/)                               |
 | Apollo GraphQL | [Rust Platform Engineer](https://www.apollographql.com/careers/job?id=afcdcb31-ce6b-4485-9987-3cc8bc361deb) |
 | Fastly         | [Senior SE - Edge Applications](https://www.fastly.com/about/jobs/apply/?gh_jid=3295256)                    |
@@ -21,10 +21,14 @@
 
 ## Startups
 
-| Company | Position                                       |
-| ------- | ---------------------------------------------- |
-| Tangram | [Rust Developer](https://www.tangram.dev/jobs) |
-| Bractet | [_Filled_](https://bractlet.com/careers/)      |
+| Company            | Position                                                                |
+| ------------------ | ----------------------------------------------------------------------- |
+| Tangram            | [Rust Developer](https://www.tangram.dev/jobs)                          |
+| Bractet            | [_Filled_](https://bractlet.com/careers/)                               |
+| Parallel Systems   | [_Filled_](https://moveparallel.com/careers/)                           |
+| Fusion Engineering | [Rust Engineer](https://fusion.engineering/rust-engineer/)              |
+| Scythe Robotics    | [DevOps & Software Test Engineer](https://jobs.lever.co/scytherobotics) |
+
 
 ## _Lots_ of Experience Required:
 
@@ -45,16 +49,17 @@
 
 ## **_MaYbE rUsT ?_**
 
-| Company          | Position                                                                                               |
-| ---------------- | ------------------------------------------------------------------------------------------------------ |
-| Toyota Connected | [Software Engineer](https://www.toyotaconnected.com/job?gh_jid=5881958002&did=4040990002)              |
-| Estuary          | [Backend Engineer](https://www.estuary.dev/about/#backend)                                             |
-| dbt Labs         | _[Whole Bunch](https://www.getdbt.com/dbt-labs/open-roles/)_                                           |
-| One Signal       | [Senior Software Engineer](https://jobs.lever.co/onesignal/9e1d251c-c1f9-49c7-98e9-c883e519f902/apply) |
-| Ntropy           | [Backend Engineer](https://jobs.lever.co/ntropy-network/5a587b64-7f97-4d75-be47-acf6394ed936)          |
-| Discord          | [Sr. Software Engineer - Safetey Engineering](https://discord.com/jobs/5834625002)                     |
-| LogDNA           | [Senior Software Engineer, Backend](https://boards.greenhouse.io/logdna/jobs/5025036002)               |
-
+| Company          | Position                                                                                                  |
+| ---------------- | --------------------------------------------------------------------------------------------------------- |
+| Toyota Connected | [Software Engineer](https://www.toyotaconnected.com/job?gh_jid=5881958002&did=4040990002)                 |
+| Estuary          | [Backend Engineer](https://www.estuary.dev/about/#backend)                                                |
+| dbt Labs         | _[Whole Bunch](https://www.getdbt.com/dbt-labs/open-roles/)_                                              |
+| One Signal       | [Senior Software Engineer](https://jobs.lever.co/onesignal/9e1d251c-c1f9-49c7-98e9-c883e519f902/apply)    |
+| Ntropy           | [Backend Engineer](https://jobs.lever.co/ntropy-network/5a587b64-7f97-4d75-be47-acf6394ed936)             |
+| Discord          | [Sr. Software Engineer - Safetey Engineering](https://discord.com/jobs/5834625002)                        |
+| LogDNA           | [Senior Software Engineer, Backend](https://boards.greenhouse.io/logdna/jobs/5025036002)                  |
+| StackBlitz       | [Software Engineer (Wasm OS + JS)](https://jobs.lever.co/stackblitz/7ccd2472-1416-4448-8642-e58e9b32e129) |
+| Disney Streaming | [SOME GUY](https://twitter.com/jrj/status/1530949737775411201)                                            |
 
 ## Blacklist (sneakily named crypto)
 
@@ -85,5 +90,3 @@
    
 ## Weird Recruiter / TripleByte Type things
 - [turing.com](https://www.turing.com/jobs)
-
-
