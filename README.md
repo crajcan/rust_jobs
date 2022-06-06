@@ -18,6 +18,7 @@
 | LaunchBadge    | [Software Developer](https://g.co/kgs/8wLGsj)                                                               |
 | Spruce         | [Software Engineer, Backend](https://spruce-systems.breezy.hr/p/9fb3b149dc01-software-engineer-backend)     |
 | FormLogic      | [Software Engineer (Rust)](https://www.formlogic.com/careers?bzid=4fbae29d9d21)                             |
+| Stellate       | [Rust Engineer](https://boards.greenhouse.io/stellate/jobs/4027858005)                                      |
 
 ## Startups
 
@@ -90,3 +91,6 @@
    
 ## Weird Recruiter / TripleByte Type things
 - [turing.com](https://www.turing.com/jobs)
+
+## Not Remote?
+- [materialize](https://boards.greenhouse.io/materialize/jobs/4135680004)
