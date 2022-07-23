@@ -1,34 +1,42 @@
 # Good Fits
 
-| Company        | Position                                                                                                    |
-| -------------- | ----------------------------------------------------------------------------------------------------------- |
-| slight.co      | [_FILLED_ Software Engineer](https://www.slight.co/jobs/software-engineer-rust)                             |
-| Fortanix       | [Remote Software Engineer](https://apply.workable.com/fortanix/j/142ACAF269/)                               |
-| Apollo GraphQL | [Rust Platform Engineer](https://www.apollographql.com/careers/job?id=afcdcb31-ce6b-4485-9987-3cc8bc361deb) |
-| Fastly         | [Senior SE - Edge Applications](https://www.fastly.com/about/jobs/apply/?gh_jid=3295256)                    |
-| Oxide Computer | [SE: Internal Systems](https://oxide.computer/careers/sw-internal-systems)                                  |
-| Oxide Computer | [SE: Control Plane](https://oxide.computer/careers/sw-control-plane)                                        |
-| 1Password      | [Senior Rust Developer](https://g.co/kgs/o6wZ9C)                                                            |
-| Singularity    | [SE: Storage Kernal](https://apply.workable.com/singularity-data/j/AE56609754/)                             |
-| Seaplane       | [Rust Software Engineer](https://apply.workable.com/seaplane/j/CEFCB5F5B8/)                                 |
-| Cloudflare     | [Software Engineer](https://boards.greenhouse.io/cloudflare/jobs/3578402?gh_jid=3578402A)                   |
-| LoanPass       | [Multiple Rust Positions](https://loanpass.io/careerPage.html)                                              |
-| ever.ag        | [Back End Developer](https://www.linkedin.com/jobs/view/2922237969)                                         |
-| Deepgram       | [Rust Engineer - Voice AI](https://jobs.lever.co/deepgram/4992b193-e4eb-483b-b326-270e637ab09b/apply)       |
-| LaunchBadge    | [Software Developer](https://g.co/kgs/8wLGsj)                                                               |
-| Spruce         | [Software Engineer, Backend](https://spruce-systems.breezy.hr/p/9fb3b149dc01-software-engineer-backend)     |
-| FormLogic      | [Software Engineer (Rust)](https://www.formlogic.com/careers?bzid=4fbae29d9d21)                             |
-| Stellate       | [Rust Engineer](https://boards.greenhouse.io/stellate/jobs/4027858005)                                      |
+| Company            | Position                                                                                                                                                                          |
+| ------------------ | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Oxide Computer     | [SE: Control Plane](https://oxide.computer/careers/sw-control-plane)                                                                                                              |
+| PgAnalyze          | [Backend Software Engineer](https://pganalyze.com/careers/backend-software-engineer)                                                                                              |
+| Cloudflare         | [Software Engineer](https://boards.greenhouse.io/cloudflare/jobs/3384369?gh_jid=3384369)                                                                                          |
+| 1Password          | [Junior Rust Developer](https://jobs.lever.co/1password/b050d727-38a7-4083-bf18-ff3842e6de50)                                                                                     |
+| Singularity        | [SE: Cloud Database](https://apply.workable.com/singularity-data/j/12B7C7E7C1/)                                                                                                   |
+| Standard Cognition | [SE Rust Cloud (Services and Infrastructure](https://jobs.ashbyhq.com/standard/b30ba21d-90d8-475f-991a-1d82c4af34e7)                                                              |
+| Svix               | [Backend Engineer (Rust)](https://www.svix.com/careers/)                                                                                                                          |
+| DataDog            | [Rust Engineer - Time-Series Database](https://www.datadoghq.com/careers/detail/?gh_jid=2169423)                                                                                  |
+| LoanPass           | [Multiple Rust Positions](https://loanpass.io/careerPage.html)                                                                                                                    |
+| Fortanix           | [Remote Software Engineer](https://apply.workable.com/fortanix/j/142ACAF269/)                                                                                                     |
+| FormLogic          | [Software Engineer (Rust)](https://formlogic.breezy.hr/p/4fbae29d9d21-software-engineer-rust?&popup=true)                                                                         |
+| Apollo GraphQL     | [Rust Platform Engineer](https://www.apollographql.com/careers/job?id=afcdcb31-ce6b-4485-9987-3cc8bc361deb)                                                                       |
+| Stellate           | [Rust Engineer](https://boards.greenhouse.io/stellate/jobs/4027858005)                                                                                                            |
+| AllSpice           | [Backend Engineer](https://allspice.notion.site/allspice/AllSpice-Careers-3173d0cd518b4257b186ba5c8f34dc44?v=753295eeb6624e4c95eb40d7c6ff3040&p=844091d3def0467eb171b59ceb7ffa65) |
+| Fastly             | [Software Engineer - IAM](https://www.fastly.com/about/jobs/apply/?gh_jid=4154106)                                                                                                |
+| Oxide Computer     | [_FILLED_ SE: Internal Systems](https://oxide.computer/careers/sw-internal-systems)                                                                                               |
+| Seaplane           | [_FILLED_ Rust Software Engineer](https://apply.workable.com/seaplane/j/CEFCB5F5B8/)                                                                                              |
+| ever.ag            | [_FILLED_ Back End Developer](https://www.linkedin.com/jobs/view/2922237969)                                                                                                      |
+| Deepgram           | [_FILLED_ Rust Engineer - Voice AI](https://jobs.lever.co/deepgram/4992b193-e4eb-483b-b326-270e637ab09b/apply)                                                                    |
+| LaunchBadge        | [_FILLED_ Software Developer](https://g.co/kgs/8wLGsj)                                                                                                                            |
+| slight.co          | [_FILLED_ Software Engineer](https://www.slight.co/jobs/software-engineer-rust)                                                                                                   |
+| Spruce             | [_FILLED_ Software Engineer, Backend](https://spruce-systems.breezy.hr/p/9fb3b149dc01-software-engineer-backend)                                                                  |
 
 ## Startups
 
-| Company            | Position                                                                |
-| ------------------ | ----------------------------------------------------------------------- |
-| Tangram            | [Rust Developer](https://www.tangram.dev/jobs)                          |
-| Bractet            | [_Filled_](https://bractlet.com/careers/)                               |
-| Parallel Systems   | [_Filled_](https://moveparallel.com/careers/)                           |
-| Fusion Engineering | [Rust Engineer](https://fusion.engineering/rust-engineer/)              |
-| Scythe Robotics    | [DevOps & Software Test Engineer](https://jobs.lever.co/scytherobotics) |
+| Company            | Position                                                                      |
+| ------------------ | ----------------------------------------------------------------------------- |
+| Metal Bear         | [Intermediate Rust Engineer](https://metalbear.co/)                           |
+| Radical/Link       | [Various Positions](https://radicle.community/t/the-link-team-is-hiring/2908) |
+| Grafbase           | [Backend Engineer](https://grafbase.com/careers/backend-engineer)             |
+| Scythe Robotics    | [DevOps & Software Test Engineer](https://jobs.lever.co/scytherobotics)       |
+| Tangram            | [_FILLED_ Rust Developer](https://www.tangram.dev/jobs)                       |
+| Bractet            | [_FILLED_](https://bractlet.com/careers/)                                     |
+| Parallel Systems   | [_FILLED_](https://moveparallel.com/careers/)                                 |
+| Fusion Engineering | [_FILLED Rust Engineer](https://fusion.engineering/rust-engineer/)            |
 
 
 ## _Lots_ of Experience Required:
@@ -88,6 +96,10 @@
 1. Kava Labs
 1. Anoma/Heliax
 1. LinkSight
+1. X4 Technology
+1. Casper Labs
+1. Jet Protocol
+
    
 ## Weird Recruiter / TripleByte Type things
 - [turing.com](https://www.turing.com/jobs)
