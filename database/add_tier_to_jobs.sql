@@ -1,0 +1,1 @@
+ALTER TABLE jobs ADD COLUMN tier integer NOT NULL DEFAULT 5;
