@@ -1,0 +1,26 @@
+*** Elaborating on open source contributions:
+
+I have strong recent experience contributing to open source CLI programs built with Rust! I have added significant business advancing features as well as DX inspired changes. All within a mature and technically complex codebase.
+
+Those commits can be found here:
+
+https://github.com/pulls?q=is:closed+is:pr+author:crajcan+archived:false+-user:crajcan+closed:%3E2022-12-01+
+
+For one of those contributions I hosted a lunch & learn with the maintainers to go over the implementation, and I wrote a tutorial for developers looking to use the feature.
+
+That blog post can be found here:
+
+https://infinyon.com/blog/2023/04/producer-smartmodule/
+
+*** What's special about Ockam
+
+I value privacy as much as any other developer but just speaking from the roadmap on the job listing, what excites me most about Ockam is that the journey seems to be valued as much as the destination.
+
+You have specific methods of collaboration designated, such as pair programming, which I believe is a cheat code.
+
+Engineers are talking directly to users, which I believe facilitates a rare sense of ownership in engineering teams.
+
+Coaching and mentoring is listed as a responsibility inside six months. Whenever I've had the fortune to feel valued in an engineering team it's been when I've had the opportunity to share my knowledge and support my team members
+
+In all it appears that there is a high level of attention being paid to developer engagement, which is probably the number one quality I'm looking for in an engineering organization.
+

@@ -106,3 +106,8 @@
 
 ## Not Remote?
 - [materialize](https://boards.greenhouse.io/materialize/jobs/4135680004)
+
+## More 
+
+NEON: https://www.startwire.com/jobs/remote/rust-software-engineer-4265049418?source=seo&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic
+Satellite govt thing: https://g.co/kgs/nv2EVp
