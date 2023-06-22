@@ -3,12 +3,9 @@ CREATE TABLE IF NOT EXISTS jobs (
   title VARCHAR(255) NOT NULL,
   description TEXT NOT NULL DEFAULT '', -- what you'd work on, what you get out of them
   filled BOOLEAN NOT NULL DEFAULT FALSE,
-  experience_level TEXT NOT NULL DEFAULT 'junior',
-  leadership_work_mentioned BOOLEAN NOT NULL DEFAULT FALSE,
-  strictly_rust BOOLEAN NOT NULL DEFAULT TRUE,
+  url TEXT NOT NULL,
   created_at TIMESTAMP NOT NULL DEFAULT NOW(),
   updated_at TIMESTAMP NOT NULL DEFAULT NOW()
-  url TEXT NOT NULL;
 );
 
 CREATE TABLE IF NOT EXISTS companies (
@@ -16,7 +13,9 @@ CREATE TABLE IF NOT EXISTS companies (
   name VARCHAR(255) NOT NULL,
   space TEXT NOT NULL DEFAULT '',
   profile TEXT NOT NULL DEFAULT '',
-  startup bool,
+  startup bool DEFAULT false,
+  url TEXT,
+  open_source_github_org TEXT,
   created_at TIMESTAMP NOT NULL DEFAULT NOW(),
   updated_at TIMESTAMP NOT NULL DEFAULT NOW()
 );
