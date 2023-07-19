@@ -1,2 +1,6 @@
 env.txt
 neondb.sh
+
+# Added by cargo
+
+/target
