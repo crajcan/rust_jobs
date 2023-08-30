@@ -1,0 +1,49 @@
+app_name: dozer-taxi-apis
+
+# Define list of connections to use
+connections:
+  - config : !LocalStorage
+      details:
+        path: data
+      tables:
+              - !Table
+                name: trips
+                config: !Parquet
+                  path: /trips
+                  extension: .parquet
+    name: ny_taxi
+
+# You can define multiple transformations to perform on several connections
+sql: |
+  SELECT
+    PULocationID as pickup_location,
+    DOLocationID as dropoff_location,
+    COUNT(PULocationID, DOLocationID) as total_trips,
+    MIN(trip_time) as min_trip_time,
+    MAX(trip_time) as max_trip_time
+  INTO trips_cache
+  FROM trips
+  GROUP BY PULocationID, DOLocationID
+  HAVING COUNT(PULocationID, DOLocationID) > 1000;
+
+
+# Sources to be used. Here columns can be filtered
+sources:
+  - name: trips
+    table_name: trips
+    connection: !Ref ny_taxi
+    columns:
+
+# APIs to automatically publish
+endpoints:
+    # Endpoint entity name. Used in generating a gRPC service
+  - name: trips_cache
+    # Rest Endpoint
+    path: /trips
+    table_name: trips_cache
+    # configure primary and secondary indexes
+    index:
+      primary_key:
+        - pickup_location
+        - dropoff_location
+

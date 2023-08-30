@@ -1,5 +1,7 @@
-env.txt
-neondb.sh
+/dozer_tutorial/data
+/dozer_tutorial/.dozer
+/database/env.txt
+/database/neondb.sh
 
 # Added by cargo
 
