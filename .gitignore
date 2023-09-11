@@ -1,7 +1,10 @@
-/dozer_tutorial/data
-/dozer_tutorial/.dozer
+/api/data/*
+/api/.dozer
+/dozer-tutorial/data
 /database/env.txt
+/database/env2.txt
 /database/neondb.sh
+/database/flydb.sh
 
 # Added by cargo
 

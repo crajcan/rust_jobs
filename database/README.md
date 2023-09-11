@@ -1,3 +1,10 @@
+#### Connect to fly postgres instance: 
+
+```
+flyctl postgress connect -a rust-jobs
+```
+
+
 
 [Backend Software Engineer](https://pganalyze.com/careers/backend-software-engineer)                                                                                              |
 [Software Engineer](https://boards.greenhouse.io/cloudflare/jobs/3384369?gh_jid=3384369)                                                                                          |
