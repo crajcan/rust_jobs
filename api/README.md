@@ -10,3 +10,9 @@ curl -X POST http://localhost:8080/trips/query --header 'Content-Type: applicati
 ```
 curl -X POST http://localhost:8080/trips/oapi
 ```
+
+#### Run dozer with options
+
+```
+dozer run --config-path ./dozer-config.yaml
+```
