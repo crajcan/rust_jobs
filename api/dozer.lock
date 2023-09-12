@@ -1,0 +1,749 @@
+{
+  "version": 1,
+  "pipeline": {
+    "nodes": [
+      {
+        "handle": {
+          "ns": 1,
+          "id": "from:trips--2"
+        },
+        "kind": {
+          "Processor": {
+            "typ": "Table"
+          }
+        }
+      },
+      {
+        "handle": {
+          "ns": 1,
+          "id": "agg--3"
+        },
+        "kind": {
+          "Processor": {
+            "typ": "Aggregation"
+          }
+        }
+      },
+      {
+        "handle": {
+          "ns": 1,
+          "id": "trips_cache"
+        },
+        "kind": "Sink"
+      },
+      {
+        "handle": {
+          "ns": null,
+          "id": "ny_taxi"
+        },
+        "kind": {
+          "Source": {
+            "typ": "LocalStorage",
+            "port_names": {
+              "1000": "trips"
+            }
+          }
+        }
+      }
+    ],
+    "node_holes": [],
+    "edge_property": "directed",
+    "edges": [
+      [
+        0,
+        1,
+        {
+          "from_port": 65535,
+          "to_port": 65535,
+          "schema": {
+            "fields": [
+              {
+                "name": "hvfhs_license_num",
+                "typ": "String",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "dispatching_base_num",
+                "typ": "String",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "originating_base_num",
+                "typ": "String",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "request_datetime",
+                "typ": "Timestamp",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "on_scene_datetime",
+                "typ": "Timestamp",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "pickup_datetime",
+                "typ": "Timestamp",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "dropoff_datetime",
+                "typ": "Timestamp",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "PULocationID",
+                "typ": "Int",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "DOLocationID",
+                "typ": "Int",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "trip_miles",
+                "typ": "Float",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "trip_time",
+                "typ": "Int",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "base_passenger_fare",
+                "typ": "Float",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "tolls",
+                "typ": "Float",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "bcf",
+                "typ": "Float",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "sales_tax",
+                "typ": "Float",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "congestion_surcharge",
+                "typ": "Float",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "airport_fee",
+                "typ": "Float",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "tips",
+                "typ": "Float",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "driver_pay",
+                "typ": "Float",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "shared_request_flag",
+                "typ": "String",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "shared_match_flag",
+                "typ": "String",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "access_a_ride_flag",
+                "typ": "String",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "wav_request_flag",
+                "typ": "String",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "wav_match_flag",
+                "typ": "String",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              }
+            ],
+            "primary_index": []
+          }
+        }
+      ],
+      [
+        1,
+        2,
+        {
+          "from_port": 65535,
+          "to_port": 65535,
+          "schema": {
+            "fields": [
+              {
+                "name": "pickup_location",
+                "typ": "Int",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "dropoff_location",
+                "typ": "Int",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "total_trips",
+                "typ": "Int",
+                "nullable": false,
+                "source": "Dynamic"
+              },
+              {
+                "name": "min_trip_time",
+                "typ": "Int",
+                "nullable": true,
+                "source": "Dynamic"
+              },
+              {
+                "name": "max_trip_time",
+                "typ": "Int",
+                "nullable": true,
+                "source": "Dynamic"
+              }
+            ],
+            "primary_index": [
+              0,
+              1
+            ]
+          }
+        }
+      ],
+      [
+        3,
+        0,
+        {
+          "from_port": 1000,
+          "to_port": 65535,
+          "schema": {
+            "fields": [
+              {
+                "name": "hvfhs_license_num",
+                "typ": "String",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "dispatching_base_num",
+                "typ": "String",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "originating_base_num",
+                "typ": "String",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "request_datetime",
+                "typ": "Timestamp",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "on_scene_datetime",
+                "typ": "Timestamp",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "pickup_datetime",
+                "typ": "Timestamp",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "dropoff_datetime",
+                "typ": "Timestamp",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "PULocationID",
+                "typ": "Int",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "DOLocationID",
+                "typ": "Int",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "trip_miles",
+                "typ": "Float",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "trip_time",
+                "typ": "Int",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "base_passenger_fare",
+                "typ": "Float",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "tolls",
+                "typ": "Float",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "bcf",
+                "typ": "Float",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "sales_tax",
+                "typ": "Float",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "congestion_surcharge",
+                "typ": "Float",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "airport_fee",
+                "typ": "Float",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "tips",
+                "typ": "Float",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "driver_pay",
+                "typ": "Float",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "shared_request_flag",
+                "typ": "String",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "shared_match_flag",
+                "typ": "String",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "access_a_ride_flag",
+                "typ": "String",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "wav_request_flag",
+                "typ": "String",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              },
+              {
+                "name": "wav_match_flag",
+                "typ": "String",
+                "nullable": true,
+                "source": {
+                  "Table": {
+                    "connection": "ny_taxi",
+                    "name": "trips"
+                  }
+                }
+              }
+            ],
+            "primary_index": []
+          }
+        }
+      ]
+    ]
+  },
+  "endpoints": {
+    "trips_cache": {
+      "path": "/trips",
+      "schema": {
+        "fields": [
+          {
+            "name": "pickup_location",
+            "typ": "Int",
+            "nullable": true,
+            "source": {
+              "Table": {
+                "connection": "ny_taxi",
+                "name": "trips"
+              }
+            }
+          },
+          {
+            "name": "dropoff_location",
+            "typ": "Int",
+            "nullable": true,
+            "source": {
+              "Table": {
+                "connection": "ny_taxi",
+                "name": "trips"
+              }
+            }
+          },
+          {
+            "name": "total_trips",
+            "typ": "Int",
+            "nullable": false,
+            "source": "Dynamic"
+          },
+          {
+            "name": "min_trip_time",
+            "typ": "Int",
+            "nullable": true,
+            "source": "Dynamic"
+          },
+          {
+            "name": "max_trip_time",
+            "typ": "Int",
+            "nullable": true,
+            "source": "Dynamic"
+          }
+        ],
+        "primary_index": [
+          0,
+          1
+        ]
+      },
+      "secondary_indexes": [
+        {
+          "SortedInverted": [
+            0
+          ]
+        },
+        {
+          "SortedInverted": [
+            1
+          ]
+        },
+        {
+          "SortedInverted": [
+            2
+          ]
+        },
+        {
+          "SortedInverted": [
+            3
+          ]
+        },
+        {
+          "SortedInverted": [
+            4
+          ]
+        }
+      ],
+      "enable_token": false,
+      "enable_on_event": true,
+      "connections": [
+        "ny_taxi"
+      ]
+    }
+  }
+}
