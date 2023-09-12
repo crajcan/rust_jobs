@@ -16,3 +16,10 @@ curl -X POST http://localhost:8080/trips/oapi
 ```
 dozer run --config-path ./dozer-config.yaml
 ```
+
+#### To build, in dozer repo:
+
+```
+RUSTFLAGS="-C link-args=-fstack-protector-all -lssp" cargo build --target x86_64-unknown-linux-gnu --release
+```
+
