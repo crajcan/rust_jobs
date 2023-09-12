@@ -1,4 +1,11 @@
-FROM rust:1.72-buster
+FROM debian:bookworm
+
+RUN apt-get -y update \
+  && apt-get clean \
+  && apt-get -y install \
+    curl \
+    unzip \
+    dpkg
 
 RUN mkdir -p /usr/src/rust_jobs_api
 
@@ -9,6 +16,9 @@ COPY . /usr/src/rust_jobs_api
 ENV DB_HOST="host.docker.internal"
 ENV SOCKET_ADDRESS=0.0.0.0:80
 
-RUN ./usr/src/rust_jobs_api/build.sh
+RUN ./build.sh
 
-CMD dozer
+RUN dozer --version
+
+CMD RUST_BACKTRACE=1 dozer run --config-path ./dozer-config.yaml
+# CMD yes
