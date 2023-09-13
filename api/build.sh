@@ -4,3 +4,7 @@ export PATH="$PATH:$HOME/.local/bin"
 
 curl -sLO https://github.com/getdozer/dozer/releases/latest/download/dozer-linux-aarch64.deb
 dpkg -i dozer-linux-aarch64.deb
+
+echo "replacing <pg_password> in dozer-config.yaml with PG_PASSWORD"
+export PG_PASSWORD=$(cat /usr/src/rust_jobs_api/.supabase_password)
+sed -i "s/<pg_password>/$PG_PASSWORD/g" /usr/src/rust_jobs_api/dozer-config.yaml

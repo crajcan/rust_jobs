@@ -16,9 +16,6 @@ COPY . /usr/src/rust_jobs_api
 ENV DB_HOST="host.docker.internal"
 ENV SOCKET_ADDRESS=0.0.0.0:80
 
-ARG TEMP_PASSWORD
-ENV PG_PASSWORD=$TEMP_PASSWORD
-
 RUN ./build.sh
 
 RUN dozer --version
