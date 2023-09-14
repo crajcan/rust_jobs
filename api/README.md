@@ -1,3 +1,15 @@
+#### Deployment
+
+Deployed via Github to render.com app "rust_jobs_api"
+
+#### Curl the oapi docs from production: 
+
+curl -X POST https://rust-jobs-api.onrender.com/companies/oapi
+
+#### Curl the companies from production: 
+
+curl -X POST  https://rust-jobs-api.onrender.com/companies/query \
+  --header 'Content-Type: application/json' --data-raw '{"$limit":3}'
 
 #### Curl the taxi cab example
 

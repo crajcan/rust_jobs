@@ -13,7 +13,7 @@ WORKDIR /usr/src/rust_jobs_api
 
 COPY . /usr/src/rust_jobs_api
 
-ENV SOCKET_ADDRESS=0.0.0.0:80
+# ENV SOCKET_ADDRESS=0.0.0.0:80
 ENV PATH=$PATH:/root/.local/bin
 RUN ./build.sh
 
