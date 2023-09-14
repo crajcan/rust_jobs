@@ -2,17 +2,6 @@ cache_max_map_size: 10000000000
 version: 1
 app_name: ny-taxi-sample
 connections:
-  - config: !LocalStorage
-      details:
-        path: ./data
-      tables:
-        - !Table
-          name: trips
-          config: !Parquet
-            path: trips
-            extension: .parquet
-    name: local_storage
-
   - config: !Postgres
       user: postgres
       host: db.iniepalupghmmajzivqu.supabase.co
@@ -22,19 +11,11 @@ connections:
     name: pg
 
 sources:
-  - name: trips
-    table_name: trips
-    connection: local_storage
-
   - name: companies
     table_name: companies
     connection: pg
 
 endpoints:
-  - name: trips
-    path: /trips
-    table_name: trips
-
   - name: companies
     path: /companies
     table_name: companies
