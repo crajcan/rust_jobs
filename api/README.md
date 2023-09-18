@@ -1,4 +1,19 @@
-## Production Deployment
+## Production Deployment (fly.io)
+
+Deployed via Dockerfile + fly CLI to fly.io "rust-jobs-api"
+
+### Curl the companies from production:
+
+curl -X POST  https://rust-jobs-api.fly.dev/companies/query \
+  --header 'Content-Type: application/json' --data-raw '{"$limit":3}'
+
+### Admin url
+
+```
+https://fly.io/apps/rust-jobs-api
+```
+
+## Production Deployment (render.com [on hold])
 
 Deployed via Github to render.com app "rust_jobs_api"
 
